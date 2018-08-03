@@ -212,10 +212,10 @@ endif
 set backupdir=~/.vim/backup/
 set directory=~/.vim/backup/
 
-" indicate textwidth with color column
-if exists("+colorcolumn")
-    set colorcolumn=+1
-endif
+"" indicate textwidth with color column
+"if exists("+colorcolumn")
+"    set colorcolumn=+1
+"endif
 
 " enable incremental search, and search highlighting by default
 set hlsearch " opposite of set nohlsearch
@@ -523,10 +523,10 @@ endif
 " * Text Formatting -- General {{{1
 
 " don't make it look like there are line breaks where there aren't:
-set nowrap
+set wrap
 " but if we wrap, use a nice unicode character to indicate the linebreak, and
 " don't break in the middle of a word
-set showbreak=∟
+"set showbreak=∟
 set linebreak
 
 " tab stops should be at 4 spaces
